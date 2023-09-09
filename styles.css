@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+header {
+    background-color: #333; /* Background color for the header */
+    color: white; /* Text color for the header */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 10px;
+    background-color: white; /* Background color for image sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Add styles for the images as needed */
