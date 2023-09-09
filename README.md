@@ -1,2 +1,0 @@
-# lenomade
-photographs
