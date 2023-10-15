@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: white; /* Background color for the header */
-    color: #75FF33; /* Text color for the header */
+    color: #87E45B; /* Text color for the header */
     text-align: center;
     padding: 20px;
 }
@@ -30,17 +30,18 @@ section {
     flex: 1;
     padding: 10px;
     background-color: white; /* Background color for image sections */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */*/
 }
 .container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             margin: 10px;
+            width: 100%;
         }
 .landscape-images img {
-            max-width: 30%; /* Adjust as needed for desired image size */
-            margin: 5px;
+            max-width: 33%; /* Adjust as needed for desired image size */
+            margin: 0px;
             box-sizing: border-box;
         }
 
